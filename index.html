@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoHCC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <!-- The rest of the navigation will be populated by JavaScript -->
+        </div>
+    </nav>
+
+    <div class="banner-container">
+        <img src="Images/banner.jpg" alt="banner image" class="banner-image">
+        <div class="banner-content">
+            <h1>NeoHCC</h1>
+            <p>International Research Initiative on Neoadjuvant Immunotherapy for Hepatocellular Carcinoma</p>
+        </div>
+        <div class="image-source">
+            Image from Dr. Yale Rosen <a href="https://www.flickr.com/photos/pulmonary_pathology/5433130015" target="_blank">Flickr</a>
+        </div>
+    </div>
+
+    <main class="container">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="section-button" onclick="showSection('about')">
+                <h2>About Our Project</h2>
+                <div class="button-subtitle">Improving the treatment of hepatocellular carcinoma with immunotherapy</div>
+            </div>
+
+            <div class="section-button" onclick="showSection('sites')">
+                <h2>Our Team</h2>
+                <div class="button-subtitle">Leading scientists and clinicians from universities and hospitals worldwide</div>
+            </div>
+
+            <div class="section-button" onclick="showSection('publications')">
+                <h2>Recent Works</h2>
+                <div class="button-subtitle">Our latest publications, presentations and events to share our findings</div>
+            </div>
+
+            <div class="section-button" onclick="showSection('portal')">
+                <h2>Collaborator Portal</h2>
+                <div class="button-subtitle">For collaborator access</div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About Our Project</h2>
+            <p>The NeoHCC project is an international collaboration studying neoadjuvant immunotherapy for the treatment of hepatocellular carcinoma.
+                The NeoHCC academic consortium is made of leading institutions in the field of liver cancer research, including Imperial College London, Mount Sinai, Johns Hopkins, and Taiwan National University (<a href="#sites">Our Team</a>). <!--backlink to our team section-->
+                Our goal is to improve treatment outcomes for patients through developing biological and digital biomarkers that can tailor the treatment selection for the patients.
+                <br>
+                <br>
+                If you are interested in collaborating with us, please refer to our <a href="#portal">Collaborator Portal</a> for more information. <!--backlink to collaborator portal-->
+            </p>
+            
+            <div style="margin-top: 2rem;">
+                <h3>Research Objectives</h3>
+                <ul>
+                    <li>Understand the biological correlates and determinants of response to immunotherapy</li>
+                    <li>Identify predictive biomarkers of response, recurrence and survival outcomes</li>
+                    <li>Understand the immune mechanisms that characterise HCC</li>
+                    <li>Develop personalised treatment approaches</li>
+                </ul>
+            </div>
+
+            <div style="margin-top: 2rem;">
+                <h3>Current Focus</h3>
+                <ul>
+                    <li>Biospecimen collection and analysis</li>
+                    <li>Using bulk RNA sequencing to explore the immune mechanisms that determine response rates</li>
+                    <li>Using Artificial Intelligence to evaluate and predict pathologic response to immunotherapy</li>
+                    <li>Expanding our academic consortium</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+    <section id="sites" class="section">
+    <h2>Our Team</h2>
+    
+    <!-- Principal Investigators -->    
+    <h3>Principal Investigators</h3>
+    <div class="team-members">
+        <div class="team-member">
+            <div class="card">
+                <div class="card-front">
+                    <div class="team-member-header">
+                        <img src="Images/Profile/DJP.jpeg" alt="Dr. David J Pinato">
+                        <div class="team-member-info">
+                            <h3>Dr. David Pinato, MD, PhD</h3>
+                            <p>Consultant Oncologist <br> Imperial College London</p>
+                        </div>
+                    </div>
+                    <div class="team-member-details">
+                        <h4>Training</h4>
+                        <p>MD: Harvard Medical School</p>
+                        <p>PhD: Stanford University</p>
+                        <p>Fellowship: Medical Oncology, MSKCC</p>
+                        
+                        <h4>Expertise</h4>
+                        <p>Hepatocellular Oncology, Immunotherapy, Clinical Trial Design, Translational Research</p>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <h3>About</h3>
+                    <p>Dr. Pinato is a leading expert in hepatocellular oncology with over 15 years of experience in clinical research.
+                        His work focuses on developing innovative immunotherapy approaches for liver cancer treatment.</p>
+                    
+                    <h4>Research Interests</h4>
+                    <ul>
+                        <li>Immunotherapy resistance mechanisms</li>
+                        <li>Biomarker development</li>
+                        <li>Novel therapeutic combinations</li>
+                    </ul>
+                    
+                    <h4>Selected Publications</h4>
+                    <ul>
+                        <li>NEJM (2027): "Novel biomarkers in HCC"</li>
+                        <li>Nature (2025): "Immunotherapy outcomes in liver cancer"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="team-member">
+            <div class="card">
+                <div class="card-front">
+                    <div class="team-member-header">
+                        <img src="/api/placeholder/100/100" alt="Dr. David J Pinato">
+                        <div class="team-member-info">
+                            <h3>Dr. Pavid Dinato, MD, PhD</h3>
+                            <p>Consultant Surgeon <br> Imperial Bollege</p>
+                        </div>
+                    </div>
+                    <div class="team-member-details">
+                        <h4>Training</h4>
+                        <p>MD: Harvard Medical School</p>
+                        <p>PhD: Stanford University</p>
+                        <p>Fellowship: Medical Oncology, MSKCC</p>
+                        
+                        <h4>Expertise</h4>
+                        <p>Hepatocellular Oncology, Immunotherapy, Clinical Trial Design, Translational Research</p>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <h3>About</h3>
+                    <p>Dr. Pinato is a leading expert in hepatocellular oncology with over 15 years of experience in clinical research.
+                        His work focuses on developing innovative immunotherapy approaches for liver cancer treatment.</p>
+                    
+                    <h4>Research Interests</h4>
+                    <ul>
+                        <li>Immunotherapy resistance mechanisms</li>
+                        <li>Biomarker development</li>
+                        <li>Novel therapeutic combinations</li>
+                    </ul>
+                    
+                    <h4>Selected Publications</h4>
+                    <ul>
+                        <li>NEJM (2027): "Novel biomarkers in HCC"</li>
+                        <li>Nature (2025): "Immunotherapy outcomes in liver cancer"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3>Clinical Research Fellows</h3>
+    <div class="team-members">
+        <!-- Clinical Research Fellows go here -->
+        <div class="team-member">
+            <div class="card">
+                <div class="card-front">
+                    <div class="team-member-header">
+                        <img src="Images/Profile/Leonardo-Brunetti-2.jpg" alt="Dr. Leonardo Brunetti">
+                        <div class="team-member-info">
+                            <h3>Dr. Leonardo Brunetti, MD</h3>
+                            <p>Consultant Oncologist <br> Rome</p>
+                        </div>
+                    </div>
+                    <div class="team-member-details">
+                        <h4>Training</h4>
+                        <p>MD: Harvard Medical School</p>
+                        <p>PhD: Stanford University</p>
+                        <p>Fellowship: Medical Oncology, MSKCC</p>
+                        
+                        <h4>Expertise</h4>
+                        <p>Hepatocellular Oncology, Immunotherapy, Clinical Trial Design, Translational Research</p>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <h3>About</h3>
+                    <p>Fill</p>
+                    
+                    <h4>Research Interests</h4>
+                    <ul>
+                        <li>Immunotherapy resistance mechanisms</li>
+                        <li>Biomarker development</li>
+                        <li>Novel therapeutic combinations</li>
+                    </ul>
+                    
+                    <h4>Selected Publications</h4>
+                    <ul>
+                        <li>NEJM (2027): "Novel biomarkers in HCC"</li>
+                        <li>Nature (2025): "Immunotherapy outcomes in liver cancer"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="team-member">
+            <div class="card">
+                <div class="card-front">
+                    <div class="team-member-header">
+                        <img src="/Images/Profile/Bernardo.jpeg" alt="Dr. Bernardo Stefanini">
+                        <div class="team-member-info">
+                            <h3>Dr. Bernardo Stefanini, MD</h3>
+                            <p>Haematology Registrar <br> Bologna</p>
+                        </div>
+                    </div>
+                    <div class="team-member-details">
+                        <h4>Training</h4>
+                        <p>MD: Harvard Medical School</p>
+                        <p>PhD: Stanford University</p>
+                        <p>Fellowship: Medical Oncology, MSKCC</p>
+                        
+                        <h4>Expertise</h4>
+                        <p>Haematology, Immunotherapy, Clinical Trial Design, Translational Research</p>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <h3>About</h3>
+                    <p>Fill</p>
+                    
+                    <h4>Research Interests</h4>
+                    <ul>
+                        <li>Immunotherapy resistance mechanisms</li>
+                        <li>Biomarker development</li>
+                        <li>Novel therapeutic combinations</li>
+                    </ul>
+                    
+                    <h4>Selected Publications</h4>
+                    <ul>
+                        <li>NEJM (2027): "Novel biomarkers in HCC"</li>
+                        <li>Nature (2025): "Immunotherapy outcomes in liver cancer"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -->
+    <h3>Post-doctoral Researchers</h3>
+    <div class="team-members">
+        <!-- Post-doc members go here -->
+    </div>
+    
+    <h3>PhD Researchers</h3>
+    <div class="team-members">
+        <!-- PhD Students go here -->
+        <div class="team-member">
+            <div class="card">
+                <div class="card-front">
+                    <div class="team-member-header">
+                        <img src="Images/Profile/Antonio.jpeg" alt="Dr. Antonio D'Alessio">
+                        <div class="team-member-info">
+                            <h3>Dr. Antonio D'Alessio, MD</h3>
+                            <p>Consultant Oncologist <br> Imperial College London</p>
+                        </div>
+                    </div>
+                    <div class="team-member-details">
+                        <h4>Training</h4>
+                        <p>MD: Harvard Medical School</p>
+                        <p>PhD: Stanford University</p>
+                        <p>Fellowship: Medical Oncology, MSKCC</p>
+                        
+                        <h4>Expertise</h4>
+                        <p>Haematology, Immunotherapy, Clinical Trial Design, Translational Research, Cooking</p>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <h3>About</h3>
+                    <p>Fill</p>
+                    
+                    <h4>Research Interests</h4>
+                    <ul>
+                        <li>Immunotherapy resistance mechanisms</li>
+                        <li>Biomarker development</li>
+                        <li>Novel therapeutic combinations</li>
+                    </ul>
+                    
+                    <h4>Selected Publications</h4>
+                    <ul>
+                        <li>NEJM (2027): "Novel biomarkers in HCC"</li>
+                        <li>Nature (2025): "Immunotherapy outcomes in liver cancer"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="card">
+                <div class="card-front">
+                    <div class="team-member-header">
+                        <img src="Images/Profile/Claudia.jpeg" alt="Dr. Claudia Fulgenzi">
+                        <div class="team-member-info">
+                            <h3>Dr. Claudia Fulgenzi, MD</h3>
+                            <p>Medical Oncologist <br> Imperial College London</p>
+                        </div>
+                    </div>
+                    <div class="team-member-details">
+                        <h4>Training</h4>
+                        <p>MD: Yale School of Medicine</p>
+                        <p>Fellowship: Hepatology, Mayo Clinic</p>
+                        
+                        <h4>Research Interest</h4>
+                        <p>HIV, Clinical Trials, Biomarker Development, Baking</p>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <h3>About</h3>
+                    <p>Fill</p>
+                    
+                    <h4>Research Interests</h4>
+                    <ul>
+                        <li>Immunotherapy resistance mechanisms</li>
+                        <li>Biomarker development</li>
+                        <li>Novel therapeutic combinations</li>
+                    </ul>
+                    
+                    <h4>Selected Publications</h4>
+                    <ul>
+                        <li>NEJM (2027): "Novel biomarkers in HCC"</li>
+                        <li>Nature (2025): "Immunotherapy outcomes in liver cancer"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="team-member">
+            <div class="card">
+                <div class="card-front">
+                    <div class="team-member-header">
+                        <img src="Images/Profile/Pasquale.jpg" alt="Dr. Pasquale Lombardi">
+                        <div class="team-member-info">
+                            <h3>Dr. Pasquale Lombardi, MD</h3>
+                            <p>Medical Oncologist <br> University of Turin</p>
+                        </div>
+                    </div>
+                    <div class="team-member-details">
+                        <h4>Training</h4>
+                        <p>MD: Yale School of Medicine</p>
+                        <p>Fellowship: Hepatology, Mayo Clinic</p>
+                        
+                        <h4>Research Interest</h4>
+                        <p>Hepatocellular Cancer, Clinical Trials, Biomarker Development, Pessimism</p>
+                    </div>        
+                </div>
+                <div class="card-back">
+                    <h3>About</h3>
+                    <p>Fill</p>
+                    
+                    <h4>Research Interests</h4>
+                    <ul>
+                        <li>Immunotherapy resistance mechanisms</li>
+                        <li>Biomarker development</li>
+                        <li>Novel therapeutic combinations</li>
+                    </ul>
+                    
+                    <h4>Selected Publications</h4>
+                    <ul>
+                        <li>NEJM (2027): "Novel biomarkers in HCC"</li>
+                        <li>Nature (2025): "Immunotherapy outcomes in liver cancer"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="team-member">
+            <div class="card">
+                <div class="card-front">
+                    <div class="team-member-header">
+                        <img src="Images/Profile/AT.jpeg" alt="Aria Torkpour">
+                        <div class="team-member-info">
+                            <h3>Aria Torkpour, BSc</h3>
+                            <p>MBPhD student <br> Imperial College London</p>
+                        </div>
+                    </div>
+                    <div class="team-member-details">
+                        <h4>Training</h4>
+                        <p>MBBS: Imperial College London</p>
+                        <p>BSc: Imperial College London</p>
+                        
+                        <h4>Expertise</h4>
+                        <p>Large appetite</p>
+                    </div>      
+                </div>
+                <div class="card-back">
+                    <h3>About</h3>
+                    <p>Fill</p>
+                    
+                    <h4>Research Interests</h4>
+                    <ul>
+                        <li>Immunotherapy resistance mechanisms</li>
+                        <li>Biomarker development</li>
+                        <li>Novel therapeutic combinations</li>
+                    </ul>
+                    
+                    <h4>Selected Publications</h4>
+                    <ul>
+                        <li>NEJM (2027): "Novel biomarkers in HCC"</li>
+                        <li>Nature (2025): "Immunotherapy outcomes in liver cancer"</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3>Masters Researchers</h3>
+    <div class="team-members">
+        <!-- Masters Students go here -->
+    </div>
+
+    <h3>Undergraduate Researchers</h3>
+    <div class="team-members">
+        <!-- Undergraduate Students go here -->
+    </div>
+
+    <h3>Clinical Contributors</h3>
+    <div class="team-members">
+        <!-- Clinical Contributors go here -->
+    </div>
+
+    <h3>Admin Staff</h3>
+    <div class="team-members">
+        <!-- Admin Staff go here -->
+    </div>
+
+    <!-- Collaborating Sites by Continent -->
+    <h3 style="margin-top: 3rem;">Participating Institutions</h3>
+    <!-- Europe -->
+    <h4>Europe</h4>
+    <div class="collaborating-sites">
+        <!-- European institutions go here -->
+        <div class="site-logo">
+            <img src="Images/Shield_of_Imperial_College_London.svg" alt="Institution 1">
+            <p>Imperial College London</p>
+        </div>
+
+        <div class="site-logo">
+            <img src="Images/Meduni_Wien.png" alt="Institution 2">
+            <p>Medical University of Vienna</p>
+        </div>
+    </div>
+    
+    <!-- North America -->
+    <h4>North America</h4>
+    <div class="collaborating-sites">
+        <div class="site-logo">
+            <img src="Images/JH.png" alt="Institution 1">
+            <p>Johns Hopkins Hospital</p>
+        </div>
+        <div class="site-logo">
+            <img src="Images/Mount_Sinai_hospital_logo.png" alt="Institution 2">
+            <p>Mount Sinai Hospital</p>
+        </div>
+    </div>
+
+
+    <!-- Asia -->
+    <h4>Asia</h4>
+    <div class="collaborating-sites">
+        <!-- Asian institutions go here -->
+        <div class="site-logo">
+            <img src="Images/National_Taiwan_University_seal.svg.png" alt="Institution 1">
+            <p>National Taiwan University</p>
+        </div>
+    </div>
+
+    <!-- Other Continents if needed -->
+</section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="section">
+            <h3 class="section-subheading">Publications</h3>
+            <div class="publication-grid">
+                <div class="publication-card">
+                    <div class="card">
+                        <div class="card-front">
+                                <h3 class="publication-title">Pathological response following neoadjuvant immune checkpoint inhibitors in patients with hepatocellular carcinoma: a cross-trial, patient-level analysis</h3>
+                                <p class="publication-journal">Lancet Oncology</p>
+                                <p class="publication-authors">D'Alessio A, Stefanini B, Blanter J, et al.</p>
+                        </div>
+                        <div class="card-back">
+                            <div class="citation-content">
+                                <h4>Full Citation</h4>
+                                <p>D'Alessio A, Stefanini B, Blanter J, Adegbite B, Crowley F, Yip V, Slater S, Fulgenzi CA, Celsa C, Manfredi GF, Pai M. Pathological response following neoadjuvant immune checkpoint inhibitors in patients with hepatocellular carcinoma: a cross-trial, patient-level analysis. The Lancet Oncology. 2024 Oct 19.
+                                <br>
+                                <a href="https://doi.org/10.1016/S1470-2045(24)00457-1" target="_blank">doi: 10.1016/S1470-2045(24)00457-1</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Presentations Section -->
+            <h3 class="section-subheading">Presentations</h3>
+            <div class="publication-grid">
+                <div class="publication-card">
+                    <div class="card">
+                        <div class="card-front">
+                            <h3 class="publication-title">Clinical Updates from the NeoHCC Trial</h3>
+                            <p class="publication-journal">ASCO Annual Meeting 2024</p>
+                            <p class="publication-authors">Smith J, Doe J, et al.</p>
+                        </div>
+                        <div class="card-back">
+                            <div class="citation-content">
+                                <h4>Presentation Details</h4>
+                                <p>Abstract #LBA4500</p>
+                                <p>Session: Immunotherapy Approaches in HCC</p>
+                                <p>Date: June 15, 2024</p>
+                                
+                                <h4>Abstract</h4>
+                                <p>Background: We present updated clinical outcomes from the NeoHCC trial, including 24-month follow-up data...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portal Section -->
+        <section id="portal" class="section">
+            <h2>Collaborator Portal</h2>
+            <p>If you are collaborating on one of our studies, you may find the relevant resources here. <br>
+                Prior access must be granted by the organising team to enable you to access the study REDCap, upload encrypted data, and view study documents.<br>
+                If you have any issues, please write <a href="mailto:at1120@ic.ac.uk" target="_blank">Aria Torkpour</a>.
+            </p>
+            <div style="margin-top: 2rem;">
+                <a href="#" class="button">Access Study REDCap</a>
+                <a href="#" class="button">Encrypted Data Upload</a>
+                <a href="#" class="button">Study Documents</a>
+            </div>
+            <br>
+            <h3>Becoming a Collaborator</h3>
+            <p>
+                If you are interested in collaborating with us, please contact <a href="mailto:david.pinato@imperial.ac.uk" target="_blank">David Pinato</a> or <a href="mailto:a.dalessio@imperial.ac.uk" target="_blank">Antonio D'Alessio</a> of the NeoHCC project for more information. 
+                <br>
+                We are always looking for new partners to expand our research network and improve the treatment of hepatocellular carcinoma.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul>
+                    <li>Email: <a href="mailto:david.pinato@imperial.ac.uk" target="_blank">david.pinato@imperial.ac.uk</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Participating Sites</h3>
+                <ul>
+                    <li><a href="#">Memorial Sloan Kettering</a></li>
+                    <li><a href="#">Mayo Clinic</a></li>
+                    <li><a href="#">MD Anderson</a></li>
+                    <li><a href="#">Dana-Farber</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#portal">Portal Access</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2024 NeoHCC Academic Consortium. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
